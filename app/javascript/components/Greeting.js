@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import store from '../redux/configureStore';
 import { randomGreeting } from '../redux/actions/greeting';
 import { useSelector } from 'react-redux';
