@@ -1,12 +1,13 @@
 // Entry point for the build script in your package.json
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-function App() {
-  return (<h1>Hello World!</h1>);
-}
+import { Provider } from 'react-redux';
+import App from './src/components/App';
+import store from './src/redux/configureStore';
 
 ReactDOM.render(
-  <App/>,
-  document.getElementById('root'),
+    <Provider store={store}>
+        <App />
+    </Provider>,
+    document.getElementById("root")
 );
