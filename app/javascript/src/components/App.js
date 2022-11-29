@@ -5,8 +5,8 @@ import Home from './Home';
 
 const App = () => <BrowserRouter>
     <Routes>
-        <Routes path='/' elements={<Home />}></Routes>
-        <Routes path='/greeting' elements={<Greeting />}></Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/greeting' element={<Greeting />}></Route>
     </Routes>
 </BrowserRouter>;
 

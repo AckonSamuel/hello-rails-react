@@ -9,4 +9,4 @@ const greeting = ( state = {}, action ) => {
     }
 }
 
-export greeting;
+export default greeting;
