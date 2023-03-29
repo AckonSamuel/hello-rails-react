@@ -1,4 +1,4 @@
-// Entry point for the build script in your package.json.
+// Entry point for the build script in your package.json file
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
