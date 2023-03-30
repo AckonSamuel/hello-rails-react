@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Controller } from '@hotwired/stimulus';
 
 // Connects to data-controller="hello"

@@ -1,4 +1,4 @@
-import { RANDOM_GREETING } from '../actionTypes';
+import RANDOM_GREETING from '../actionTypes';
 
 const greeting = (state = {}, action) => {
   switch (action.type) {

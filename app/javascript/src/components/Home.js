@@ -10,7 +10,7 @@ const Home = () => {
         Hello there, you are welcome to this empty page.
         I hope you fill it with surprise!
       </h1>
-      <button onClick={() => { navigate('/greeting'); }}>View a greeting</button>
+      <button type="button" onClick={() => { navigate('/greeting'); }}>View a greeting</button>
     </>
   );
 };
