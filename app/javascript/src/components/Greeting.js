@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import store from '../redux/configureStore';
-import { randomGreeting } from '../redux/actions/greeting';
+import randomGreeting from '../redux/actions/greeting';
 
 const Greeting = () => {
   const greeting = useSelector((state) => state.greeting);
@@ -11,7 +11,7 @@ const Greeting = () => {
   }, []);
 
   return (
-    <h1>{greeting.message}</h1>
+    <h1>{greeting.greeting}</h1>
   );
 };
 
